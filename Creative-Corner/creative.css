@@ -1,0 +1,365 @@
+* {
+  border: 1px solid Blue !important; 
+}
+
+* {
+  -webkit-box-sizing: border-box; /*browser specific*/
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*Header*/
+
+.logo > h3, .logo > h4{
+  display: inline-block;
+}
+
+.logo > h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.logo > h4 {
+  font-size: 20px;
+}
+
+.nav > ul {
+  margin: 25px 0 0 0;
+  padding:0;
+  /*height: 80px;*/
+}
+
+.nav li {
+  list-style: none;
+  display: inline;
+  padding: 0 15px 0 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav li ul {
+  position: absolute;
+  visibility:hidden;
+  /*border-top: 2px solid #fff;*/
+  padding: 0;
+  left: 320px;
+}
+
+.nav li ul li {
+  float: none;
+  border: 5px solid #fff;
+}
+
+.highlight {
+  color: Gold !important;
+}
+
+.nav .current {
+  color: Gold;
+}
+
+.social-media a{
+  margin-top: 25px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+.twitter {
+  height: 100px;
+  background: url(../elegantmediaicons/PNG/twitter.png) no-repeat;
+  background-size: 18px 18px;
+}
+
+.facebook {
+  height: 100px;
+  background: url(../elegantmediaicons/PNG/facebook.png) no-repeat;
+  background-size: 18px 18px;
+}
+
+.yahoo {
+  height: 100px;
+  background: url(../elegantmediaicons/PNG/yahoo.png) no-repeat;
+  background-size: 18px 18px;
+}
+
+/*Footer*/
+.footer p, .footer a {
+  margin-top: 20px;
+}
+
+/*Index*/
+
+.index-main {
+  background-color: black;
+  height: 500px;
+}
+
+
+
+.index-main h1, h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-left: 20px;
+  color: #fff;
+  font-family: 'Bitter', serif;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.index-main-top {
+  margin-top: 50px !important;
+}
+
+.index-main h2 {
+  word-spacing: 10px;
+}
+
+
+.index-main a {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 40px 10px 40px;
+  margin: 30px 50px 50px 100px;
+  display: inline-block;
+}
+
+.index-main-ib {
+  display: inline-block;
+}
+
+.index-main span {
+  display: inline-block;
+  font-size: 50px;
+  color: Gold;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.index-secondary {
+  background-color: Gold;
+  height: 200px;
+}
+
+.index-services {
+  height: 150px;
+}
+
+.index-services-container {
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  position: relative;
+  top: 50px;
+  left: 60px;
+
+}
+
+.index-services img {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+/*Talent*/
+
+.talent-banner {
+  background-color: Gold;
+}
+
+.talent-banner h1 {
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.talent-banner p {
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  margin-left: 55px;
+  font-size: 20px;
+}
+
+.talent-picture div{
+  padding-left: 0;
+}
+
+.talent-info div {
+  margin-top: 50px;
+}
+
+.talent-info p {
+  font-weight: bold;
+}
+
+.talent-info a {
+  background-color: Gold;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+
+.talent-contact-para {
+  width: 400px;
+  font-size: 24px;
+}
+
+.talent-info hr {
+  height: 2px;
+  width: 400px;
+  background-color: black;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+/*Job*/
+
+.job-banner {
+  background-color: Gold;
+}
+
+.job-banner h1 {
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+
+.job-banner p {
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  margin-left: 55px;
+  font-size: 20px;
+}
+
+.job-picture div{
+  padding-left: 0;
+}
+
+.job-info div {
+  margin-top: 50px;
+}
+
+.job-info a {
+  background-color: Gold;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+
+.job-contact-para {
+  width: 400px;
+  font-size: 24px;
+}
+
+.job-info hr {
+  height: 2px;
+  width: 400px;
+  background-color: black;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.job-companies div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*About Us*/
+
+.about-info p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-people {
+  background-color: LightGrey;
+}
+
+.about-people img {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.about-john {
+  visibility:  hidden;
+}
+
+/*Contact*/
+.contact-banner {
+  background-color: Gold;
+}
+
+.contact-banner h1 {
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+
+.contact-banner p {
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  margin-left: 55px;
+  font-size: 20px;
+}
+
+.contact-job h4, .contact-talent h4, .contact-general h4 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 29px;
+}
+
+.bold {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.contact-form input {
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #000;
+  margin-bottom: 5px;
+  float: right;
+}
+
+.contact-form textarea {
+  width: 200px;
+  height: 106px;
+  padding-left: 10px;
+}
+
+.form-left {
+  padding-right: 2px;
+}
+
+.form-right {
+  padding-left: 2px;
+}
+
+.location {
+  margin-left: 118px;
+  width: 360px;
+  height: 225px;
+}
+
+
+

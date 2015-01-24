@@ -1,0 +1,88 @@
+body {
+
+}
+
+.navcontainer ul {
+	list-style-type:none;
+	text-align:right;
+}
+
+.navcontainer ul li {
+	display:inline;
+}
+
+.navcontainer a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.logo {
+  position:fixed;
+  top:150px;
+  left:550px;
+}
+
+.logo img {
+	display:block;
+  width:200px;
+  height:150px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.input {
+  position: absolute;
+  top:300px;
+  left:350px;
+  display:block;
+	width:600px;
+  margin-left: auto;
+	margin-right: auto;
+  border-radius: 10px;
+}
+
+.searchbuttons {
+  position: absolute;
+  top: 350px;
+  left:500px;
+}
+
+.searchbuttons ul {
+  list-style-type:none;
+  text-align: center;
+}
+
+.searchbuttons ul li {
+  display:inline;
+}
+
+footer {
+  background: #F8F8FF;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+}
+
+.footercontainer ul {
+	list-style-type:none;
+	text-align: center;
+}
+
+.footercontainer ul li {
+	display: inline;
+}
+
+.footercontainer a {
+  text-decoration: none;
+  padding:10px;
+}
+
+.footercontainer .list1 {
+   float:left;
+}
+
+.footercontainer .list2 {
+  float:right;
+}

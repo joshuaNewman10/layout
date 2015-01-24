@@ -1,0 +1,267 @@
+* {
+  border: 1px solid Blue !important; 
+}
+
+* {
+  -webkit-box-sizing: border-box; /*browser specific*/
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+  color: #4e5944;
+}
+
+.header {
+  background-color: #4e5944
+}
+
+h1, h2 {
+  color: #eee;
+}
+
+h6 {
+ color: #4e5944;
+ font-size: 14px;
+}
+
+h1 {
+ font-size: 28px;
+ letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/*nav */
+
+.nav a{
+  font-family: Times, 'Times New Roman', serif;
+  color: #b8c6ac;
+  text-decoration: none;
+}
+
+.nav ul {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.nav li {
+  display: inline;
+  text-decoration: none;
+  padding: 0 15px 0 15px;
+  margin-top: 20px;
+}
+
+/*Index */
+
+.signature {
+  text-align: right;s
+}
+
+.main {
+  border-top: 2px solid #fff;
+}
+
+.main-img img {
+  border: 4px solid #fff;
+  padding: 2px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.main-img a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.main-features li {
+  display: inline;
+  text-decoration: none;
+}
+
+.secondary {
+  border-top: 2px solid #fff;
+}
+
+.secondary-contact {
+  list-style: none;
+}
+
+.secondary-contact li{
+  padding-bottom: 2px;
+}
+
+.border-left{
+  border-left: 1px solid #c2c2c2;
+}
+
+.contact li {
+  list-style: none;
+}
+
+/* About */
+
+.our-firm img {
+  border: 6px solid #fff;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+/*Practices */
+
+.practices-main {
+  border-left: 2px dotted #fff;
+}
+
+.practices-main img {
+  border: 4px solid #fff;
+  padding: 3px;
+}
+
+.practices-main a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.practices-side li {
+ list-style: none;
+ padding: 6px 0 10px 10px;
+ border-bottom: 2px dotted #fff;
+}
+
+.practices-side-list1 {
+  border-top: 2px dotted #fff;
+}
+
+.practices-side-testimonials {
+  border-bottom: 2px dotted #fff;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* Lawyers */
+
+.lawyers-main {
+  border-left: 2px dotted #fff;
+}
+
+.lawyers-main h5 {
+  font-size: 18px;
+}
+
+.lawyers-info {
+  position: relative;
+  top: -80px;
+  width: 50%;
+  left: 150px;
+}
+
+.lawyers-divorce, .lawyers-marriage {
+  border-top: 2px dotted #fff;
+}
+
+
+.lawyers-side h4 {
+  border-bottom: 2px dotted #fff;
+  padding: 20px 0 20px 0;
+}
+
+/*News */
+.news-main {
+  border-left: 2px dotted #fff;
+}
+
+.news-side h4 {
+  border-bottom: 2px dotted #fff;
+  padding: 20px 0 20px 0;
+}
+
+.news-container {
+  margin: 10px 0 10px 0;
+  padding-right: 15px;
+  width: 75%;
+  background-color: #fff;
+  border: 5px solid #fff;
+}
+
+.news-box {
+  display: inline-block;
+}
+
+.news-box img {
+  border: 4px solid LightGrey;
+}
+
+.news-content {
+  display: inline-block;
+  margin-left: 10px;
+  width: 50%;
+}
+
+.news-container a {
+  float: right;
+}
+
+.news-content-description {
+  height: 100px;
+}
+
+/* Contact */
+
+.contact-form label {
+  display: block;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #4e5944;
+  color: #eee;
+  text-align: center;
+}
+
+.social-media a {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 5px;
+  left: 0px;
+}
+
+.twitter {
+  height: 100px;
+  background: url(elegantmediaicons/PNG/twitter.png) no-repeat;
+  background-size: 18px 18px;
+}
+
+.facebook {
+  height: 100px;
+  background: url(elegantmediaicons/PNG/facebook.png) no-repeat;
+  background-size: 18px 18px;
+}
+
+.google {
+  height: 100px;
+  background: url(elegantmediaicons/PNG/google.png) no-repeat;
+  background-size: 18px 18px;
+}
+
+.flickr {
+  height: 100px;
+  background: url(elegantmediaicons/PNG/flickr.png) no-repeat;
+  background-size: 18px 18px;
+}
+
+.copyright p{
+  position: relative;
+  top: 5px;
+}
